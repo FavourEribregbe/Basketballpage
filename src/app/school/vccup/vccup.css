@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+
+.vccuppage{
+    align-items: center;
+}
+
+.loading-p {
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+.text {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 15px;
+
+}
+
+.vccuppage h1{ 
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+#school-team-btn{
+    height: 42px;
+    width: 130px;
+    color: white;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+#school-team-btn:hover{
+    background-color: rgb(214, 98, 3);
+    border: 3px rgb(241, 224, 224) solid;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(247, 162, 5, 0.89);
+}
+
+.arrowbtn{
+    background-color: orangered;
+}
+
+.arrowbtn:hover{
+    background-color: rgb(214, 98, 3);
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(247, 162, 5, 0.89);
+}
+
+.btns{
+    display: flex;
+    gap: 3.5rem;
+    margin-top: 60px;
+    align-items: center;
+    margin-left: 25%;
+}

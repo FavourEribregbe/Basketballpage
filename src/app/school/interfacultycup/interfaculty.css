@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: bolder;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin-top: 220px;
+}
+
+.inter-faculty-cup{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inter-faculty {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    gap: 50px;
+}
+
+.faculty{
+    height: 15rem;
+    width: 14rem;
+    border: 3px solid;
+    border-color: orangered;
+    background-color: black;
+    cursor: pointer;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.faculty:hover{
+    transform: scaleX(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.faculty p{
+    font-size: 1rem;
+}
+
+.faculty-btn{
+    height: 70px;
+    width: 130px;
+    margin-top: 40px;
+    background-color:black;
+    color: white;
+    margin-bottom: 30px;
+    border: 3px solid;
+    cursor: pointer;
+}
+
+.faculty-btn:hover{
+    background-color: orangered;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(146, 145, 143, 0.89);
+}
+

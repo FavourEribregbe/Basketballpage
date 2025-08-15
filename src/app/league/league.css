@@ -1,0 +1,74 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.league-page{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.league-page p{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.league-page h1{
+    text-align: center;
+    font-size: 2.1rem;
+    color: white;
+    font-weight: bolder;
+    margin-top: 30px;
+    align-items: center;
+}
+
+#league-team-btn{
+    height: 42px;
+    width: 130px;
+    color: white;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+#league-team-btn:hover{
+    background-color: rgb(214, 98, 3);
+    border: 3px rgb(241, 224, 224) solid;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(247, 162, 5, 0.89);
+}
+
+.league-games{
+    align-items: center;
+}
+
+.arrowbtn{
+    background-color: orangered;
+}
+
+.arrowbtn:hover{
+    background-color: rgb(214, 98, 3);
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(247, 162, 5, 0.89);
+}
+
+.btns{
+    display: flex;
+    gap: 3.5rem;
+    margin-top:35px;
+    align-items: center;
+}
